@@ -28,12 +28,12 @@ void setup() {
   size(880, 360);
   smooth(2);
 
-  fondo =  loadImage("BasquetAjuste.jpg");
-  fondo1 = loadImage("start.jpg");
-  fondo2 = loadImage("Listo.jpg");
-  termina= loadImage("acabar.png");
-  lanza =  loadImage("bryant.png");
-  prepara= loadImage("prepara.png");
+  fondo =  loadImage("imagen1.jpg");
+  fondo1 = loadImage("imagen2.jpg");
+  fondo2 = loadImage("imagen3.jpg");
+  termina= loadImage("imagen4.png");
+  lanza =  loadImage("imagen5.png");
+  prepara= loadImage("imagen6.png");
 
   box2d = new Box2DProcessing(this);
   box2d.createWorld();
